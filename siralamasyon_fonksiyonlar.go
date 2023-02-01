@@ -10,7 +10,7 @@ func stringListeMi(discordMesaji string) bool {
 }
 
 // Gelen string degerini listeye cevir
-func stringiListeyeCevir(discordMesaji string) []string {
+func stringiListeyeCevir(discordMesaji string) []int{
 	// TODO: Bu fonksiyonun içi doldurulacak : Hatice
 	return []string{}
 }
