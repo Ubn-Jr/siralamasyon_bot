@@ -24,7 +24,7 @@ func stringiListeyeCevir(discordMesaji string) []int {
 	return []int{}
 }
 
-func dizidekiDegerlerSayiMi(dizi []string) bool {
+func dizidekiDegerlerSayiMi(dizi string) bool {
 	// TODO: Bu fonksiyonun içi doldurulacak : Hatice
 	return true
 }
