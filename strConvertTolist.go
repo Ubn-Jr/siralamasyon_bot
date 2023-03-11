@@ -3,7 +3,7 @@ import (
 	"fmt"
 	"strconv"
 )
-
+//yorum satirlari eklenecek 
 func main() {
   
  var discordMesaji  string = "deneme mesaji"
