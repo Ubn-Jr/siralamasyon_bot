@@ -11,7 +11,8 @@ func main() {
 }
 // Gelen string degerini listeye cevir
 func stringiListeyeCevir(discordMesaji string) []int {
-    // Discord mesaji parametresine
+   
+
      chars := []byte(discordMesaji)
  
      for i := 0; i < len(chars); i++ {
@@ -19,6 +20,13 @@ func stringiListeyeCevir(discordMesaji string) []int {
          fmt.Println(char)
      }
      
+     if chars == "" {
+    fmt.Println("Hata: Boş bir mesaj verildi!")
+    return false
+    } else {
+        return true
+    }
+
  
  }
 
