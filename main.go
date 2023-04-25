@@ -20,18 +20,36 @@ func stringListeMi(discordMesaji string) bool {
 
 // Gelen string degerini listeye cevir
 func stringiListeyeCevir(discordMesaji string) []int {
-	// TODO: Bu fonksiyonun içi doldurulacak : Hatice
-	return []int{}
+	chars := []byte(discordMesaji)
+ 
+     for i := 0; i < len(chars); i++ {
+         char := string(chars[i])
+         fmt.Println(char)
+     }
+     
+     if chars == "" {
+    fmt.Println("Hata: Boş bir mesaj verildi!")
+    return false
+    } else {
+        return true
+    }
+
+ 
 }
 
 func dizidekiDegerlerSayiMi(dizi string) bool {
-	// TODO: Bu fonksiyonun içi doldurulacak : Hatice
-	return true
+	for key, val := range arr {
+        _, err := strconv.Atoi(val)
+        if err != nil {
+            return false
+        }
+    }
+    return true
 }
 
 // Kullanıcıya hata mesajı göster
 func hataMesajiGoster(hataMesaji string) {
-	// TODO: Bu fonksiyonun içi doldurulacak : Beyzanur
+	
 }
 
 func main() {
